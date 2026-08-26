@@ -72,6 +72,17 @@ cd dashboard
 pip install -r requirements.txt
 streamlit run app.py
 ```
+##  🧰 Tech Stack
+Layer	Tool	Purpose
+Language	Python 3.10+	Core data processing & app logic
+Web framework	Streamlit	Interactive dashboard, filters, tabs, session state
+Data processing	Pandas	CSV ingestion, cleaning, resampling, groupby aggregation
+Numerical ops	NumPy	Statistical calculations (IQR, means, thresholds)
+Visualization	Plotly (express + graph_objects)	Interactive time-series, bar, heatmap, pie charts
+Report generation	python-docx / docx.js	Research paper & executive summary as Word documents
+Charting for reports	Matplotlib	Static publication-quality figures embedded in the research paper
+Deployment	Streamlit Community Cloud	Free, zero-config hosting directly from GitHub
+Config	.streamlit/config.toml	Forces a consistent light theme for all users 
 
 ## Requirement coverage
 | Brief requirement | Where it's delivered |
