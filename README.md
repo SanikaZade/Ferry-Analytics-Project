@@ -72,17 +72,6 @@ cd dashboard
 pip install -r requirements.txt
 streamlit run app.py
 ```
-##  🧰 Tech Stack
-Layer	Tool	Purpose
-Language	Python 3.10+	Core data processing & app logic
-Web framework	Streamlit	Interactive dashboard, filters, tabs, session state
-Data processing	Pandas	CSV ingestion, cleaning, resampling, groupby aggregation
-Numerical ops	NumPy	Statistical calculations (IQR, means, thresholds)
-Visualization	Plotly (express + graph_objects)	Interactive time-series, bar, heatmap, pie charts
-Report generation	python-docx / docx.js	Research paper & executive summary as Word documents
-Charting for reports	Matplotlib	Static publication-quality figures embedded in the research paper
-Deployment	Streamlit Community Cloud	Free, zero-config hosting directly from GitHub
-Config	.streamlit/config.toml	Forces a consistent light theme for all users 
 
 ## Requirement coverage
 | Brief requirement | Where it's delivered |
@@ -108,3 +97,9 @@ Config	.streamlit/config.toml	Forces a consistent light theme for all users
 - Deprecated `use_container_width` replaced with `width='stretch'`; requirements.txt pinned with upper bounds.
 - Research paper docx validated with python-docx (strict OOXML parser) after fixing an image
   content-type bug in the chart-embedding step — confirmed 3 images load correctly, no corruption.
+
+## 📈 Key Findings at a Glance
+Demand peaks daily at 12:00 PM, with sales and redemptions both spiking 11 AM–2 PM
+Weekends run 71% higher than weekdays (70.6 vs. 41.2 avg tickets/interval)
+Summer accounts for 64.3% of all annual ticket sales; winter just 3.4%
+Net passenger movement builds through late morning — a usable early signal for terminal congestion management
