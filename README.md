@@ -8,7 +8,6 @@ This project builds that missing analytics layer, covering the full pipeline fro
 12.97M ticket sales and 12.79M redemptions analyzed
 Zero missing values; outliers statistically identified, not blindly removed
 
-```
 🔬 Methodology
 1. Data Ingestion
 Load the raw CSV (_id, Timestamp, Sales Count, Redemption Count)
@@ -41,7 +40,7 @@ Net Passenger Movement (Sales − Redemptions)
 Peak Demand Window (daily peak: 11:00–14:00; weekly peak: Sat–Sun; seasonal peak: Jun–Aug)
 Off-Season Utilization Index — off-peak demand as a % of summer peak
 
-📊 Dashboard Modules
+## 📊 Dashboard Modules
 Time-Series — raw / hourly / daily views with rolling averages
 Peak vs Off-Peak — hourly bar chart, day-of-week comparison, hour×day heatmap
 Seasonal Trends — monthly line trend, seasonal pie split, weekday vs weekend, distribution histogram
@@ -50,7 +49,7 @@ Data Quality — live cleaning summary, outlier detection, interval-consistency 
 Live Feed Simulator — replays the most recent intervals to approximate a near real-time operational view
 
 Filters: date range, hour of day, year, season, weekday/weekend User roles: Operations Team · Policy Planner · Management Stakeholder — each gets a tailored insight panel
-```
+
 ## Folder structure
 ```
 Ferry_Analytics_Project/
