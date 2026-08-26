@@ -1,4 +1,4 @@
-# Real-Time Ferry Ticket Sales & Redemption Analytics — Toronto Island Park
+# ⛴️ Real-Time Ferry Ticket Sales & Redemption Analytics for Toronto Island Park
 
 Ferries are the only public access route to the Toronto Islands, running year-round from the Jack Layton Ferry Terminal to Centre Island, Hanlan's Point, and Ward's Island. Ticket sales and redemptions have long been logged every 15 minutes — but until now, that data sat unused, with no centralized system to answer basic operational questions: When is demand highest? How many people are actually on the grounds right now? Where should staff and vessels be deployed?
 
@@ -99,7 +99,7 @@ streamlit run app.py
   content-type bug in the chart-embedding step — confirmed 3 images load correctly, no corruption.
 
 ## 📈 Key Findings at a Glance
-Demand peaks daily at 12:00 PM, with sales and redemptions both spiking 11 AM–2 PM
-Weekends run 71% higher than weekdays (70.6 vs. 41.2 avg tickets/interval)
-Summer accounts for 64.3% of all annual ticket sales; winter just 3.4%
-Net passenger movement builds through late morning — a usable early signal for terminal congestion management
+- Demand peaks daily at 12:00 PM, with sales and redemptions both spiking 11 AM–2 PM
+- Weekends run 71% higher than weekdays (70.6 vs. 41.2 avg tickets/interval)
+- Summer accounts for 64.3% of all annual ticket sales; winter just 3.4%
+- Net passenger movement builds through late morning — a usable early signal for terminal congestion management
