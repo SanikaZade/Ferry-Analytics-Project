@@ -8,13 +8,13 @@ This project builds that missing analytics layer, covering the full pipeline fro
 12.97M ticket sales and 12.79M redemptions analyzed
 Zero missing values; outliers statistically identified, not blindly removed
 
-🔬 Methodology
+## 🔬 Methodology
 1. Data Ingestion
 Load the raw CSV (_id, Timestamp, Sales Count, Redemption Count)
 Parse Timestamp to native datetime objects
 Sort chronologically to guarantee correct time-series behavior
 
-3. Data Cleaning
+2. Data Cleaning
 Missing timestamps — detected and dropped, count reported live in the dashboard
 Outlier detection — IQR method (values beyond Q3 + 3×IQR flagged, not silently removed — inspection shows they reflect genuine high-season spikes, not data errors)
 Consistency checks — interval-spacing validation confirms the expected 15-minute cadence during operating hours
@@ -34,6 +34,7 @@ Hourly & daily demand curves
 Seasonal comparison (summer accounts for 64.3% of annual volume vs. 3.4% in winter)
 Sales-vs-redemption distribution analysis
 1-hour and 4-hour rolling averages (toggle between Sales / Redemptions)
+
 5. Key Performance Indicators
 Tickets Sold per Hour / Tickets Redeemed per Hour
 Net Passenger Movement (Sales − Redemptions)
