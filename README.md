@@ -1,7 +1,7 @@
-Live Dashboard - https://ferry-analytics-project.streamlit.app/
-
 
 # ⛴️ Real-Time Ferry Ticket Sales & Redemption Analytics for Toronto Island Park
+
+Live Dashboard - https://ferry-analytics-project.streamlit.app/
 
 Ferries are the only public access route to the Toronto Islands, running year-round from the Jack Layton Ferry Terminal to Centre Island, Hanlan's Point, and Ward's Island. Ticket sales and redemptions have long been logged every 15 minutes — but until now, that data sat unused, with no centralized system to answer basic operational questions: When is demand highest? How many people are actually on the grounds right now? Where should staff and vessels be deployed?
 
