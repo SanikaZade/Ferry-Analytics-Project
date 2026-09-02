@@ -11,6 +11,7 @@ This project builds that missing analytics layer, covering the full pipeline fro
 12.97M ticket sales and 12.79M redemptions analyzed
 Zero missing values; outliers statistically identified, not blindly removed
 
+
 ## 🔬 Methodology
 1. Data Ingestion
 Load the raw CSV (_id, Timestamp, Sales Count, Redemption Count)
