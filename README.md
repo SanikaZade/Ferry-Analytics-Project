@@ -106,3 +106,4 @@ streamlit run app.py
 - Weekends run 71% higher than weekdays (70.6 vs. 41.2 avg tickets/interval)
 - Summer accounts for 64.3% of all annual ticket sales; winter just 3.4%
 - Net passenger movement builds through late morning — a usable early signal for terminal congestion management
+  
