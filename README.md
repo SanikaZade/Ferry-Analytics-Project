@@ -107,4 +107,3 @@ streamlit run app.py
 - Summer accounts for 64.3% of all annual ticket sales; winter just 3.4%
 - Net passenger movement builds through late morning — a usable early signal for terminal congestion management
 
-  
